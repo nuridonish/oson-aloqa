@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_chats"
+        android:icon="@drawable/ic_msg_small"
+        android:title="@string/tab_chats" />
+
+    <item
+        android:id="@+id/nav_calls"
+        android:icon="@drawable/ic_call"
+        android:title="@string/tab_calls" />
+
+    <item
+        android:id="@+id/nav_balance"
+        android:icon="@drawable/ic_tab_balance"
+        android:title="@string/tab_balance" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_tab_profile"
+        android:title="@string/tab_profile" />
+</menu>

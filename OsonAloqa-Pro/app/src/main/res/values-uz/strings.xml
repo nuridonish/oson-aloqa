@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oson Aloqa</string>
+    <string name="register_title">Roʻyxatdan oʻtish</string>
+    <string name="your_name">Ismingiz</string>
+    <string name="name_hint">Masalan: Faridun</string>
+    <string name="country">Mamlakat</string>
+    <string name="phone_number">Telefon raqami</string>
+    <string name="phone_hint_preview">Xalqaro formatdagi toʻliq raqam</string>
+    <string name="register">Roʻyxatdan oʻtish</string>
+    <string name="invalid_name">Ismingizni kiriting</string>
+    <string name="invalid_phone">Telefon raqami notoʻgʻri</string>
+    <string name="permission_needed">Ilova ishlashi uchun SMS ruxsati kerak</string>
+    <string name="chats_title">Chatlar</string>
+    <string name="no_chats">Hozircha chat yoʻq. Boshlash uchun + ni bosing.</string>
+    <string name="new_chat">Yangi chat</string>
+    <string name="choose_language">Tilni tanlang</string>
+    <string name="profile">Profil</string>
+    <string name="logout">Chiqish</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="enter_number">Qabul qiluvchi raqami</string>
+    <string name="pick_contact">Kontaktni tanlash</string>
+    <string name="open_chat">Chatni ochish</string>
+    <string name="error_contacts">Kontaktlar mavjud emas</string>
+    <string name="type_message">Xabar yozing…</string>
+    <string name="send">Yuborish</string>
+    <string name="call">Qoʻngʻiroq qilish</string>
+    <string name="sms_subtitle">SMS • SIM karta hisobidan</string>
+    <string name="channel_msg">Xabarlar</string>
+    <string name="select_country">Mamlakatni tanlash</string>
+    <string name="search">Qidirish…</string>
+    <string name="sms_info">Xabarlar oddiy SMS sifatida SIM karta hisobidan yuboriladi. Internet kerak emas.</string>
+    <string name="tab_chats">Chatlar</string>
+    <string name="tab_calls">Qoʻngʻiroqlar</string>
+    <string name="tab_balance">Balans</string>
+    <string name="tab_profile">Profil</string>
+    <string name="grant_call_log">Qoʻngʻiroqlarni koʻrsatish (ruxsat bering)</string>
+    <string name="call_log_empty">Hozircha qoʻngʻiroq yoʻq</string>
+    <string name="seconds">sek</string>
+    <string name="call_confirm">Shu raqamga qoʻngʻiroq qilinsinmi?</string>
+    <string name="balance_title">Balans — SIM karta</string>
+    <string name="balance_note">Operatoringizni bosing — balans soʻrovi USSD orqali yuboriladi. Javob ekranda koʻrinadi. Oflayn ishlaydi.</string>
+    <string name="op_tj">Tojikiston:</string>
+    <string name="op_ru">Rossiya:</string>
+    <string name="ussd_custom">Oʻz USSD kodingiz</string>
+    <string name="dial">Terish</string>
+    <string name="ussd_hint">USSD kodni kiriting, masalan *100#</string>
+    <string name="tariff_note">Eslatma: Rossiya ↔ Tojikiston qoʻngʻiroqlari narxini mobil operatoringiz belgilaydi, ilova emas. Arzon tarif uchun operatordan xalqaro tarif/foizni faollashtiring.</string>
+    <string name="btn_set_phone">Standart telefon ilovasi qilish</string>
+    <string name="btn_set_sms">Standart SMS ilovasi qilish</string>
+    <string name="already_default">Allaqachon standart</string>
+    <string name="default_unsupported">Bu Android versiyasida qoʻllanmaydi</string>
+    <string name="logout_confirm">Chiqish va maʼlumotlarni oʻchirish?</string>
+    <string name="about_title">Ilova haqida</string>
+    <string name="about_text">«Oson Aloqa» — oflayn messenger.\n\nIshlab chiquvchi: Mustafo Xolbutaev.\n\nMaqsad: Rossiya va Tojikiston oʻrtasida oddiy va arzon aloqa — SMS xabarlar internetsiz, qoʻngʻiroqlar SIM hisobidan, videoulanishlar internet orqali (server rejalashtirilgan).\n\nQoʻngʻiroqlar operatoringiz tomonidan hisoblanadi. Versiya 2.0</string>
+    <string name="video_action">Videoulanish</string>
+    <string name="video_need_server">Internet orqali videoulanish uchun signalli server kerak — keyingi versiyada qoʻshiladi. Hozircha SIM hisobidan ovozli qoʻngʻiroqdan foydalaning.</string>
+    <string name="video_no_internet">Internet yoʻq. Faqat SMS va ovozli qoʻngʻiroqlar ishlaydi.</string>
+    <string name="call_incoming">Kiruvchi qoʻngʻiroq</string>
+    <string name="call_ongoing">Suhbat davom etmoqda…</string>
+    <string name="call_ended">Qoʻngʻiroq tugadi</string>
+    <string name="call_answer">Javob berish</string>
+    <string name="call_decline">Rad etish</string>
+    <string name="call_end">Tugatish</string>
+    <string name="video_call_int">Videoulanish (internet)</string>
+    <string name="audio_call_int">Audio ulanish (internet)</string>
+    <string name="ic_incoming">Internet qoʻngʻirogʻi…</string>
+    <string name="ic_connecting">Ulanmoqda…</string>
+    <string name="ic_connected">Ulandi</string>
+    <string name="ic_failed">Ulanmadi</string>    <string name="net_switch">Internet</string>
+    <string name="net_switch_on">Internet qoʻngʻirogʻi: YOQ (ilova-ilova)</string>
+    <string name="net_switch_off">SIM qoʻngʻirogʻi: raqamga, operator tarifidan</string>
+    <string name="ic_fallback">Qarshi tomon javob bermadi yoki ilova/internet yoʻq. Bu raqamga SIM hisobidan qoʻngʻiroq qilinsinmi?</string>
+    <string name="ic_to_sim">Ha, SIM orqali</string>    <string name="tab_contacts">Kontaktlar</string>
+    <string name="search_contact">Ism yoki raqam qidirish…</string>
+    <string name="no_contacts">Kontaktlar yoʻq</string>
+    <string name="operator_label">Operator</string>
+    <string name="block">Bloklash</string>
+    <string name="block_confirm">Bu foydalanuvchi bloklansinmi?</string>
+    <string name="blocked_added">Bloqlandi</string>
+    <string name="blocked_list">Bloqlanganlar</string>
+    <string name="no_blocked">Bloqlangan yoʻq</string>
+    <string name="unblocked">Blok olindi</string>
+    <string name="phone_title">Raqam bilan kirish</string>
+    <string name="otp_next">Davom etish</string>
+    <string name="otp_old_reg">OTP siz (oflayn)</string>
+    <string name="otp_title">SMS kodi</string>
+    <string name="otp_hint">6 xonali kod</string>
+    <string name="otp_verify">Tasdiqlash</string>
+    <string name="otp_resend">Qayta yuborish</string>
+    <string name="otp_resend_in">%s s dan keyin</string>
+    <string name="otp_invalid">Kod xato. Demo: 123456</string>
+    <string name="otp_offline_note">OTP server (2-bosqich) hali ulanmagan. Demo kod: 123456. Server ishga tushgach haqiqiy SMS keladi.</string>
+    <string name="otp_sent_demo">Demo: kod 123456</string>    <string name="report">Shikoyat qilish</string>
+    <string name="report_hint">Sabab (spam, firibgarlik…)</string>
+    <string name="report_sent">Shikoyat yuborildi. Rahmat!</string>
+    <string name="server_settings">Server (API URL)</string>
+    <string name="server_url_hint">http://192.168.1.10:8080</string>
+    <string name="saved">Saqlandi</string>
+    <string name="otp_sent_real">Kodli SMS raqamingizga yuborildi</string>
+    <string name="server_missing">Server URL kiritilmagan (Profil → Server)</string>    <string name="attach">Ilova qilish</string>
+    <string name="media_photo">Rasm</string>
+    <string name="media_video">Video</string>
+    <string name="media_file">Fayl</string>
+    <string name="media_too_big">Fayl 20 MB dan katta</string>
+    <string name="uploading">Yuklanmoqda…</string>
+    <string name="media_failed">Yuklanmadi. Server mavjudmi?</string>    <string name="net_send_failed">Internet orqali yuborib boʻlmadi (qarshi tomon oflayn?). Xabar yuborilmadi.</string>    <string name="sip_settings">SIP-shlyuz (VoIP oddiy raqamlarga)</string>
+    <string name="sip_server_hint">SIP server, masalan pbx.example.com:5060</string>
+    <string name="sip_user_hint">SIP foydalanuvchi nomi</string>
+    <string name="sip_pass_hint">SIP parol</string>
+    <string name="sip_call">SIP qoʻngʻiroq (internet-shlyuz)</string>
+    <string name="sim_call">SIM qoʻngʻiroq (operator tarifi)</string>
+    <string name="sip_unsupported">Bu qurilmada SIP qoʻllanmaydi</string>
+    <string name="sip_error">SIP xato: %s</string>    <string name="perms_title">Ruxsatlar</string>
+    <string name="perm_sms">SMS (yuborish/qabul)</string>
+    <string name="perm_phone">Telefon (qoʻngʻiroq)</string>
+    <string name="perm_contacts">Kontaktlar</string>
+    <string name="perm_notif">Bildirishnomalar</string>
+    <string name="perm_hint">Agar ❌ boʻlsa — «Sozlamalarni ochish» → Ruxsatlar → ruxsat bering.</string>
+    <string name="open_settings">Sozlamalarni ochish</string>
+    <string name="perm_denied_sms">SMS ruxsati rad etilgan. Sozlamalar → Ruxsatlar → SMSga ruxsat bering.</string>    <string name="tab_status">Status</string>
+    <string name="folder_all">Hammasi</string>
+    <string name="folder_groups">Guruhlar</string>
+    <string name="folder_channels">Kanallar</string>
+    <string name="folder_archive">Arxiv</string>
+    <string name="no_statuses">24 soatda status yoʻq</string>
+    <string name="add_status">Status qoʻshish</string>
+    <string name="status_hint">Nima boʻlyapti?</string>
+    <string name="create_group">Yangi guruh</string>
+    <string name="create_channel">Yangi kanal</string>
+    <string name="group_name_hint">Nomi</string>
+    <string name="group_hint">Guruh yaratildi • birinchi xabar yozing</string>
+    <string name="archive">Arxivga</string>
+    <string name="unarchive">Arxivdan chiqarish</string>
+    <string name="online_now">Onlayn • xabarlar sinxron</string>
+    <string name="channel_online">Oson Aloqa onlayn</string>    <string name="net_err_unreachable">Server vaqtincha mavjud emas. Qayta urinamiz… Internetni tekshiring.</string>
+    <string name="net_err_no_user">Qabul qiluvchi serverda yoʻq! U ham ilovani oʻrnatib, shu serverga ulanib, roʻyxatdan oʻtishi kerak.</string>    <string name="typing_now">yozmoqda…</string>    <string name="pin">Yuqoriga qadash</string>
+    <string name="unpin">Olish</string>
+    <string name="mute">Bildirishnomalarni oʻchirish</string>
+    <string name="unmute">Yoqish</string></resources>
+
+
+
+
+
+
+
+
+
+
+
+
+

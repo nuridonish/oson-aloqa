@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Осон Алоқа</string>
+    <string name="register_title">Регистрация</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="name_hint">Например: Фаридун</string>
+    <string name="country">Страна</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="phone_hint_preview">Полный номер в международном формате</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="invalid_name">Введите имя</string>
+    <string name="invalid_phone">Неверный номер телефона</string>
+    <string name="permission_needed">Для работы приложения нужно разрешение на SMS</string>
+    <string name="chats_title">Чаты</string>
+    <string name="no_chats">Пока нет чатов. Нажмите +, чтобы начать.</string>
+    <string name="new_chat">Новый чат</string>
+    <string name="choose_language">Выберите язык</string>
+    <string name="profile">Профиль</string>
+    <string name="logout">Выйти</string>
+    <string name="cancel">Отмена</string>
+    <string name="enter_number">Номер получателя</string>
+    <string name="pick_contact">Выбрать контакт</string>
+    <string name="open_chat">Открыть чат</string>
+    <string name="error_contacts">Контакты недоступны</string>
+    <string name="type_message">Введите сообщение…</string>
+    <string name="send">Отправить</string>
+    <string name="call">Позвонить</string>
+    <string name="sms_subtitle">SMS • за счёт баланса SIM</string>
+    <string name="channel_msg">Сообщения</string>
+    <string name="select_country">Выбор страны</string>
+    <string name="search">Поиск…</string>
+    <string name="sms_info">Сообщения отправляются как обычные SMS за счёт баланса SIM-карты. Интернет не нужен.</string>
+    <string name="tab_chats">Чаты</string>
+    <string name="tab_calls">Звонки</string>
+    <string name="tab_balance">Баланс</string>
+    <string name="tab_profile">Профиль</string>
+    <string name="grant_call_log">Показать звонки (разрешить доступ)</string>
+    <string name="call_log_empty">Звонков пока нет</string>
+    <string name="seconds">сек</string>
+    <string name="call_confirm">Позвонить на этот номер?</string>
+    <string name="balance_title">Баланс — симкарта</string>
+    <string name="balance_note">Нажмите своего оператора — запрос баланса через USSD. Ответ появится на экране. Работает офлайн.</string>
+    <string name="op_tj">Таджикистан:</string>
+    <string name="op_ru">Россия:</string>
+    <string name="ussd_custom">Свой USSD-код</string>
+    <string name="dial">Набор</string>
+    <string name="ussd_hint">Введите USSD-код, например *100#</string>
+    <string name="tariff_note">Важно: стоимость звонков Россия ↔ Таджикистан устанавливает ваш мобильный оператор, а не приложение. Для дешёвых звонков подключите международный тариф/пакет у оператора.</string>
+    <string name="btn_set_phone">Сделать телефоном по умолчанию</string>
+    <string name="btn_set_sms">Сделать SMS-приложением по умолчанию</string>
+    <string name="already_default">Уже установлено</string>
+    <string name="default_unsupported">Не поддерживается на этой версии Android</string>
+    <string name="logout_confirm">Выйти и стереть данные?</string>
+    <string name="about_title">О приложении</string>
+    <string name="about_text">«Осон Алоқа» — офлайн-мессенджер.\n\nРазработчик: Мустафо Холбутаев.\n\nЦель: простая и доступная связь между Россией и Таджикистаном — сообщения через SMS без интернета, звонки за счёт баланса SIM, видеозвонки через интернет (сервер в планах).\n\nЗвонки тарифицируются вашим оператором. Версия 2.0</string>
+    <string name="video_action">Видеозвонок</string>
+    <string name="video_need_server">Для видеозвонков через интернет нужен сигнальный сервер — он будет добавлен в следующей версии. Пока используйте голосовой звонок за счёт SIM.</string>
+    <string name="video_no_internet">Нет интернета. Работают только SMS и голосовые звонки.</string>
+    <string name="call_incoming">Входящий звонок</string>
+    <string name="call_ongoing">Разговор идёт…</string>
+    <string name="call_ended">Звонок завершён</string>
+    <string name="call_answer">Ответить</string>
+    <string name="call_decline">Отклонить</string>
+    <string name="call_end">Завершить</string>
+    <string name="video_call_int">Видеозвонок (интернет)</string>
+    <string name="audio_call_int">Аудиозвонок (интернет)</string>
+    <string name="ic_incoming">Интернет-звонок…</string>
+    <string name="ic_connecting">Соединение…</string>
+    <string name="ic_connected">Соединено</string>
+    <string name="ic_failed">Не удалось соединить</string>    <string name="net_switch">Интернет</string>
+    <string name="net_switch_on">Интернет-звонок: ВКЛ (приложение-приложение)</string>
+    <string name="net_switch_off">Звонок SIM: на номер, по тарифу оператора</string>
+    <string name="ic_fallback">Другая сторона не ответила или нет приложения/интернета. Позвонить на этот номер за счёт симкарты?</string>
+    <string name="ic_to_sim">Да, через SIM</string>    <string name="tab_contacts">Контакты</string>
+    <string name="search_contact">Поиск имени или номера…</string>
+    <string name="no_contacts">Контактов нет</string>
+    <string name="operator_label">Оператор</string>
+    <string name="block">Заблокировать</string>
+    <string name="block_confirm">Заблокировать этого пользователя?</string>
+    <string name="blocked_added">Заблокирован</string>
+    <string name="blocked_list">Заблокированные</string>
+    <string name="no_blocked">Блокированных нет</string>
+    <string name="unblocked">Разблокирован</string>
+    <string name="phone_title">Вход по номеру</string>
+    <string name="otp_next">Продолжить</string>
+    <string name="otp_old_reg">Без OTP (офлайн)</string>
+    <string name="otp_title">Код из SMS</string>
+    <string name="otp_hint">6-значный код</string>
+    <string name="otp_verify">Подтвердить</string>
+    <string name="otp_resend">Отправить снова</string>
+    <string name="otp_resend_in">Повтор через %s с</string>
+    <string name="otp_invalid">Неверный код. Демо: 123456</string>
+    <string name="otp_offline_note">Сервер OTP (Этап 2) ещё не подключён. Демо-код: 123456. После запуска сервера придёт настоящая SMS.</string>
+    <string name="otp_sent_demo">Демо: код 123456</string>    <string name="report">Пожаловаться</string>
+    <string name="report_hint">Причина (спам, мошенничество…)</string>
+    <string name="report_sent">Жалоба отправлена. Спасибо!</string>
+    <string name="server_settings">Сервер (URL API)</string>
+    <string name="server_url_hint">http://192.168.1.10:8080</string>
+    <string name="saved">Сохранено</string>
+    <string name="otp_sent_real">SMS с кодом отправлено на ваш номер</string>
+    <string name="server_missing">URL сервера не задан (Профиль → Сервер)</string>    <string name="attach">Прикрепить</string>
+    <string name="media_photo">Фото</string>
+    <string name="media_video">Видео</string>
+    <string name="media_file">Файл</string>
+    <string name="media_too_big">Файл больше 20 МБ</string>
+    <string name="uploading">Загрузка…</string>
+    <string name="media_failed">Не загрузилось. Сервер доступен?</string>    <string name="net_send_failed">Отправка через интернет не удалась (получатель офлайн?). Сообщение не отправлено.</string>    <string name="sip_settings">SIP-шлюз (VoIP на обычные номера)</string>
+    <string name="sip_server_hint">SIP сервер, напр. pbx.example.com:5060</string>
+    <string name="sip_user_hint">Имя пользователя SIP</string>
+    <string name="sip_pass_hint">Пароль SIP</string>
+    <string name="sip_call">SIP-звонок (интернет-шлюз)</string>
+    <string name="sim_call">Звонок SIM (тариф оператора)</string>
+    <string name="sip_unsupported">SIP не поддерживается на этом устройстве</string>
+    <string name="sip_error">Ошибка SIP: %s</string>    <string name="perms_title">Разрешения</string>
+    <string name="perm_sms">SMS (отправка/приём)</string>
+    <string name="perm_phone">Телефон (звонки)</string>
+    <string name="perm_contacts">Контакты</string>
+    <string name="perm_notif">Уведомления</string>
+    <string name="perm_hint">Если стоит ❌ — «Открыть настройки» → Разрешения → разрешите.</string>
+    <string name="open_settings">Открыть настройки</string>
+    <string name="perm_denied_sms">Разрешение на SMS отклонено. Настройки → Разрешения → разрешите SMS.</string>    <string name="tab_status">Статус</string>
+    <string name="folder_all">Все</string>
+    <string name="folder_groups">Группы</string>
+    <string name="folder_channels">Каналы</string>
+    <string name="folder_archive">Архив</string>
+    <string name="no_statuses">За 24 часа статусов нет</string>
+    <string name="add_status">Добавить статус</string>
+    <string name="status_hint">Что происходит?</string>
+    <string name="create_group">Новая группа</string>
+    <string name="create_channel">Новый канал</string>
+    <string name="group_name_hint">Название</string>
+    <string name="group_hint">Группа создана • напишите первое сообщение</string>
+    <string name="archive">В архив</string>
+    <string name="unarchive">Из архива</string>
+    <string name="online_now">Онлайн • синхронизация сообщений</string>
+    <string name="channel_online">Осон Алоқа онлайн</string>    <string name="net_err_unreachable">Сервер временно недоступен. Повторяем… Проверьте интернет.</string>
+    <string name="net_err_no_user">Получателя нет на сервере! Он должен установить приложение, подключиться к тому же серверу и зарегистрироваться.</string>    <string name="typing_now">печатает…</string>    <string name="pin">Закрепить сверху</string>
+    <string name="unpin">Открепить</string>
+    <string name="mute">Отключить уведомления</string>
+    <string name="unmute">Включить уведомления</string></resources>
+
+
+
+
+
+
+
+
+
+
+
+
+

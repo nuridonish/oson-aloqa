@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Осон Алоқа</string>
+    <string name="register_title">Регистратсия</string>
+    <string name="your_name">Номи шумо</string>
+    <string name="name_hint">Мисол: Фаридун</string>
+    <string name="country">Кишвар</string>
+    <string name="phone_number">Рақами телефон</string>
+    <string name="phone_hint_preview">Рақами пурра бо формати байналмилалӣ</string>
+    <string name="register">Сабти ном</string>
+    <string name="invalid_name">Номро нависед</string>
+    <string name="invalid_phone">Рақами нодуруст</string>
+    <string name="permission_needed">Барои кори барнома иҷозати SMS лозим аст</string>
+    <string name="chats_title">Чатҳо</string>
+    <string name="no_chats">Ҳанӯз чат нест. Тугмаи + -ро пахш кунед.</string>
+    <string name="new_chat">Чати нав</string>
+    <string name="choose_language">Забонро интихоб кунед</string>
+    <string name="profile">Профил</string>
+    <string name="logout">Баромадан</string>
+    <string name="cancel">Бекор</string>
+    <string name="enter_number">Рақами қабулкунанда</string>
+    <string name="pick_contact">Интихоби контакт</string>
+    <string name="open_chat">Кушодани чат</string>
+    <string name="error_contacts">Контактҳо дастрас нестанд</string>
+    <string name="type_message">Паём нависед…</string>
+    <string name="send">Фиристодан</string>
+    <string name="call">Занг задан</string>
+    <string name="sms_subtitle">SMS • аз ҳисоби симкарта</string>
+    <string name="channel_msg">Паёмҳо</string>
+    <string name="select_country">Интихоби кишвар</string>
+    <string name="search">Ҷустуҷӯ…</string>
+    <string name="sms_info">Паёмҳо ҳамчун SMS аз ҳисоби симкарта фиристода мешаванд. Интернет лозим нест.</string>
+    <string name="tab_chats">Чатҳо</string>
+    <string name="tab_calls">Зангҳо</string>
+    <string name="tab_balance">Баланс</string>
+    <string name="tab_profile">Профил</string>
+    <string name="grant_call_log">Нишон додани зангҳо (иҷозат диҳед)</string>
+    <string name="call_log_empty">Ҳанӯз занг нест</string>
+    <string name="seconds">сон</string>
+    <string name="call_confirm">Ба ин рақам занг зада шавад?</string>
+    <string name="balance_title">Баланс — симкарта</string>
+    <string name="balance_note">Оператори худро пахш кунед — дархости баланс тавассути USSD меравад. Ҷавоб дар экран пайдо мешавад. Офлайн кор мекунад.</string>
+    <string name="op_tj">Тоҷикистон:</string>
+    <string name="op_ru">Русия:</string>
+    <string name="ussd_custom">Коди USSD-и ихтиёрӣ</string>
+    <string name="dial">Занг</string>
+    <string name="ussd_hint">Коди USSD ворид кунед, масалан *100#</string>
+    <string name="tariff_note">Эзоҳ: нархи зангҳои Русия ↔ Тоҷикистон аз ҷониби оператори мобилии шумо муқаррар карда мешавад, на аз барнома. Барои нархи арзон тарифи байналмилалии операторро фаъол кунед.</string>
+    <string name="btn_set_phone">Барномаи пешфрзи занг кунед</string>
+    <string name="btn_set_sms">Барномаи пешфрзи SMS кунед</string>
+    <string name="already_default">Аллакай пешфрз аст</string>
+    <string name="default_unsupported">Дар ин версияи Android дастгирӣ намешавад</string>
+    <string name="logout_confirm">Баромадан ва тоза кардани маълумот?</string>
+    <string name="about_title">Дар бораи барнома</string>
+    <string name="about_text">«Осон Алоқа» — месинҷери офлайн.\n\nТаҳиякунанда: Мустафо Холбутаев.\n\nМақсад: алоқаи осон ва арзон байни Русия ва Тоҷикистон — паёмҳо тавассути SMS бе интернет, зангҳо аз ҳисоби симкарта, видеозанг бо интернет (сервер дар оянда).\n\nПули зангҳо аз оператори мобилӣ саришта мешавад. Версия 2.0</string>
+    <string name="video_action">Видеозанг</string>
+    <string name="video_need_server">Барои видеозанг тавассути интернет сервери алоқа лозим аст — дар версияи оянда илова мешавад. Ҳоло занги оддии симкартаро истифода баред.</string>
+    <string name="video_no_internet">Интернет нест. Танҳо SMS ва занги симкарта кор мекунад.</string>
+    <string name="call_incoming">Занги воридшуда</string>
+    <string name="call_ongoing">Занг идома дорад…</string>
+    <string name="call_ended">Занг тамом шуд</string>
+    <string name="call_answer">Ҷавоб</string>
+    <string name="call_decline">Рад</string>
+    <string name="call_end">Пӯшидани занг</string>
+    <string name="video_call_int">Видеозанг (интернет)</string>
+    <string name="audio_call_int">Занги овозӣ (интернет)</string>
+    <string name="ic_incoming">Занги интернетӣ…</string>
+    <string name="ic_connecting">Пайваст мешавад…</string>
+    <string name="ic_connected">Пайваст шуд</string>
+    <string name="ic_failed">Пайваст нашуд</string>    <string name="net_switch">Интернет</string>
+    <string name="net_switch_on">Занги интернетӣ: ФАЪОЛ (барнома ба барнома)</string>
+    <string name="net_switch_off">Занги SIM: ба рақам, аз тарифи оператор</string>
+    <string name="ic_fallback">Он тараф ҷавоб надод ё барнома/интернет надорад. Ба ин рақам аз ҳисоби симкарта занг зада шавад?</string>
+    <string name="ic_to_sim">Ҳа, тавассути SIM</string>    <string name="tab_contacts">Тамосҳо</string>
+    <string name="search_contact">Ҷустуҷӯи ном ё рақам…</string>
+    <string name="no_contacts">Тамос нест</string>
+    <string name="operator_label">Оператор</string>
+    <string name="block">Блок кардан</string>
+    <string name="block_confirm">Ин корбар блок карда шавад?</string>
+    <string name="blocked_added">Блок шуд</string>
+    <string name="blocked_list">Блокшудагон</string>
+    <string name="no_blocked">Блокшуда нест</string>
+    <string name="unblocked">Блок бор карда шуд</string>
+    <string name="phone_title">Воридшавӣ бо рақам</string>
+    <string name="otp_next">Идома</string>
+    <string name="otp_old_reg">Бе OTP (офлайн)</string>
+    <string name="otp_title">Рамзи SMS</string>
+    <string name="otp_hint">Рамзи 6-рақама</string>
+    <string name="otp_verify">Тасдиқ</string>
+    <string name="otp_resend">Фиристодани дубора</string>
+    <string name="otp_resend_in">Дубора баъди %s с</string>
+    <string name="otp_invalid">Рамзи нодуруст. Демо: 123456</string>
+    <string name="otp_offline_note">Сервери OTP (Марҳила 2) ҳоло пайваст нест. Рамзи демо: 123456. Баъди оғози сервер SMS-и воқеӣ меояд.</string>
+    <string name="otp_sent_demo">Демо: рамзи 123456</string>    <string name="report">Гузориш оиди корбар</string>
+    <string name="report_hint">Сабаб (спам, суиистифода…)</string>
+    <string name="report_sent">Гузориш фиристода шуд. Ташаккур!</string>
+    <string name="server_settings">Сервер (URL-и API)</string>
+    <string name="server_url_hint">http://192.168.1.10:8080</string>
+    <string name="saved"> Нигоҳ дошта шуд</string>
+    <string name="otp_sent_real">SMS бо рамз ба рақами шумо фиристода шуд</string>
+    <string name="server_missing">URL-и сервер танзим нашудааст (Профил → Сервер)</string>    <string name="attach">Замима</string>
+    <string name="media_photo">Акс</string>
+    <string name="media_video">Видео</string>
+    <string name="media_file">Файл</string>
+    <string name="media_too_big">Файл аз 20 МБ калон аст</string>
+    <string name="uploading">Бор карда мешавад…</string>
+    <string name="media_failed">Бор нашуд. Сервер дастрас аст?</string>    <string name="net_send_failed">Фиристодани интернетӣ нагузашт (он тараф офлайн?). Паём нарафт.</string>    <string name="sip_settings">SIP-шлюз (VoIP ба рақамҳои оддӣ)</string>
+    <string name="sip_server_hint">Сервери SIP, масалан pbx.example.com:5060</string>
+    <string name="sip_user_hint">Номи корбари SIP</string>
+    <string name="sip_pass_hint">Рамзи SIP</string>
+    <string name="sip_call">Занги SIP (интернет-шлюз)</string>
+    <string name="sim_call">Занги SIM (тарифи оператор)</string>
+    <string name="sip_unsupported">SIP дар ин дастгоҳ дастгирӣ намешавад</string>
+    <string name="sip_error">Хатои SIP: %s</string>    <string name="perms_title">Иҷозатҳо</string>
+    <string name="perm_sms">SMS (фиристодан/қабул)</string>
+    <string name="perm_phone">Телефон (занг)</string>
+    <string name="perm_contacts">Контактҳо</string>
+    <string name="perm_notif">Огоҳиномаҳо</string>
+    <string name="perm_hint">Агар ❌ бошад — «Кушодани танзимот» → Иҷозатҳо → иҷозат диҳед.</string>
+    <string name="open_settings">Кушодани танзимот</string>
+    <string name="perm_denied_sms">Иҷозати SMS рад карда шудааст. Танзимот → Иҷозатҳо → SMS-ро иҷозат диҳед.</string>    <string name="tab_status">Статус</string>
+    <string name="folder_all">Ҳама</string>
+    <string name="folder_groups">Гурӯҳҳо</string>
+    <string name="folder_channels">Каналҳо</string>
+    <string name="folder_archive">Архив</string>
+    <string name="no_statuses">Дар 24 соат статус нест</string>
+    <string name="add_status">Илова кардани статус</string>
+    <string name="status_hint">Чӣ рӯй медиҳад?</string>
+    <string name="create_group">Гурӯҳи нав</string>
+    <string name="create_channel">Канали нав</string>
+    <string name="group_name_hint">Ном</string>
+    <string name="group_hint">Гурӯҳ сохта шуд • аввалин паём нависед</string>
+    <string name="archive">Ба архив</string>
+    <string name="unarchive">Аз архив баровардан</string>
+    <string name="online_now">Онлайн • паёмҳо синхрон</string>
+    <string name="channel_online">Осон Алоқа онлайн</string>    <string name="net_err_unreachable">Сервер муваққатан дастнорас аст. Такрор мекунем… Интернетро санҷед.</string>
+    <string name="net_err_no_user">Қабулкунанда дар сервер нест! Ӯ бояд барномаро насб карда, ба ҳамон сервер пайваст шуда, ба қайд дарояд.</string>    <string name="typing_now">менависад…</string>    <string name="pin">Ба боло мустаҳкам</string>
+    <string name="unpin">Бекор кардан</string>
+    <string name="mute">Хомӯш кардани огоҳинома</string>
+    <string name="unmute">Фаъол кардани огоҳинома</string></resources>
+
+
+
+
+
+
+
+
+
+
+
+
+

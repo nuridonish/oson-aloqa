@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bubble_in">#202C33</color>
+    <color name="text_main">#E9EDF0</color>
+    <color name="text_secondary">#8696A0</color>
+    <color name="primary_dark">#003A75</color>
+</resources>

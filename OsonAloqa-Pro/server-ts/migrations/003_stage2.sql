@@ -1,0 +1,40 @@
+-- 003_stage2.sql — JWT devices, seq, idempotency, acks, reactions, edits
+ALTER TABLE users ADD COLUMN IF NOT EXISTS token TEXT NOT NULL DEFAULT '';
+
+CREATE TABLE IF NOT EXISTS devices (
+  id TEXT PRIMARY KEY,
+  phone TEXT NOT NULL,
+  refresh_hash TEXT NOT NULL,
+  ua TEXT NOT NULL DEFAULT '',
+  created_at BIGINT NOT NULL,
+  last_seen BIGINT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_devices_phone ON devices(phone);
+
+ALTER TABLE messages ADD COLUMN IF NOT EXISTS uuid TEXT;
+ALTER TABLE messages ADD COLUMN IF NOT EXISTS seq BIGINT;
+ALTER TABLE messages ADD COLUMN IF NOT EXISTS edited BOOLEAN NOT NULL DEFAULT FALSE;
+ALTER TABLE messages ADD COLUMN IF NOT EXISTS edit_body TEXT NOT NULL DEFAULT '';
+ALTER TABLE messages ADD COLUMN IF NOT EXISTS deleted_for_all BOOLEAN NOT NULL DEFAULT FALSE;
+ALTER TABLE messages ADD COLUMN IF NOT EXISTS gname TEXT NOT NULL DEFAULT '';
+ALTER TABLE messages ADD COLUMN IF NOT EXISTS gid TEXT NOT NULL DEFAULT '';
+CREATE UNIQUE INDEX IF NOT EXISTS idx_msg_uuid ON messages(from_phone, uuid) WHERE uuid IS NOT NULL;
+CREATE INDEX IF NOT EXISTS idx_messages_seq ON messages(seq);
+
+CREATE TABLE IF NOT EXISTS message_acks (
+  msg_seq BIGINT NOT NULL,
+  phone TEXT NOT NULL,
+  state TEXT NOT NULL,
+  ts BIGINT NOT NULL,
+  PRIMARY KEY (msg_seq, phone)
+);
+
+CREATE TABLE IF NOT EXISTS message_reactions (
+  msg_seq BIGINT NOT NULL,
+  phone TEXT NOT NULL,
+  emoji TEXT NOT NULL,
+  ts BIGINT NOT NULL,
+  PRIMARY KEY (msg_seq, phone)
+);
+
+

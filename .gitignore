@@ -1,0 +1,38 @@
+# Build outputs
+*.apk
+*.aab
+build/
+dist/
+*.iml
+
+# IDE
+.idea/
+*.swp
+.vscode/
+
+# Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Secrets — НЕ КОММИТ КУНЕД!
+.env
+google-services.json
+serviceAccount.json
+*.jks
+*.keystore
+keystore/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+pgdata/
+uploads/
+pg.zip
+*.log
+__pycache__/
